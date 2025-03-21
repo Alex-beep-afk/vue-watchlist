@@ -1,4 +1,5 @@
 <script setup>
+// je defini les proprietés de mon composant
 const props = defineProps({
     series: String,
     season: Number,
@@ -7,7 +8,9 @@ const props = defineProps({
     timeCursor: String,
 })
 </script>
+
 <template>
+    <!-- Dans mon template je place mon html et mes proprietés -->
     <div class="watch-card">
         <div class="course-preview">
             <h6>{{ series }}</h6>
